@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/preSplashFragment">
+    <fragment
+        android:id="@+id/permissions"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.Permissions"
+        android:label="Permission"/>
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.PrivacyFragment"
+        android:label="PrivacyFragment" >
+
+
+        <action
+            android:id="@+id/action_privacyFragment_to_home_nav_graph"
+            app:destination="@id/home_nav_graph" />
+        <action
+            android:id="@+id/action_privacyFragment_to_askingSetPassword"
+            app:destination="@id/askingSetPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/askingSetPassword"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.AskingSetPassword"
+        android:label="AskingSetPassword" >
+        <action
+            android:id="@+id/action_askingSetPassword_to_setUserPasswordFragmentOne"
+            app:destination="@id/setUserPasswordFragmentOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/setUserFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SetUserFragment"
+        android:label="SetUserFragment" >
+        <action
+            android:id="@+id/action_setUserFragment_to_securityFragment"
+            app:destination="@id/securityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/securityFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SecurityFragment"
+        android:label="SecurityFragment" >
+
+        <action
+            android:id="@+id/action_securityFragment_to_savedSuccessFragment"
+            app:destination="@id/savedSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedSuccessFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SavedSuccessFragment"
+        android:label="SavedSuccessFragment" >
+        <action
+            android:id="@+id/action_savedSuccessFragment_to_home_nav_graph"
+            app:destination="@id/home_nav_graph" />
+    </fragment>
+    <include app:graph="@navigation/home_nav_graph" />
+    <fragment
+        android:id="@+id/splashTwoFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SplashTwoFragment"
+        android:label="SplashTwoFragment" />
+    <fragment
+        android:id="@+id/forgotFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ForgotFragment"
+        android:label="ForgotFragment" >
+        <action
+            android:id="@+id/action_forgotFragment_to_setUserPasswordFragmentOne"
+            app:destination="@id/setUserPasswordFragmentOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/setUserPasswordFragmentOne"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SetUserPasswordFragmentOne"
+        android:label="SetUserPasswordFragmentOne" >
+        <action
+            android:id="@+id/action_setUserPasswordFragmentOne_to_setUserFragment"
+            app:destination="@id/setUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preSplashFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.PreSplashFragment"
+        android:label="PreSplashFragment" >
+        <action
+            android:id="@+id/action_preSplashFragment_to_splashTwoFragment"
+            app:destination="@id/splashTwoFragment" />
+    </fragment>
+</navigation>
+
+

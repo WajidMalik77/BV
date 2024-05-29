@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/audiowide</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/courgette</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/frijole</item>
+        <item>@font/hanalei_fill</item>
+        <item>@font/josefin_sans</item>
+        <item>@font/jura</item>
+        <item>@font/kanit</item>
+        <item>@font/kaushan_script</item>
+        <item>@font/libre_baskerville</item>
+        <item>@font/lobster</item>
+        <item>@font/monofett</item>
+        <item>@font/monoton</item>
+        <item>@font/montserrat</item>
+        <item>@font/open_sans</item>
+        <item>@font/oxygen</item>
+        <item>@font/pacifico</item>
+        <item>@font/permanent_marker</item>
+        <item>@font/redressed</item>
+        <item>@font/righteous</item>
+        <item>@font/roboto</item>
+        <item>@font/satisfy</item>
+        <item>@font/yellowtail</item>
+    </array>
+
+</resources>

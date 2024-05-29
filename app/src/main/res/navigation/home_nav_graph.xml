@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/mySuccessFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SavedSuccessFragment"
+        android:label="Saving Password"/>
+    <fragment
+        android:id="@+id/mySecurityFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SecurityFragment"
+        android:label="Security Fragment"/>
+    <fragment
+        android:id="@+id/reEnterPasswordFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SetUserFragment"
+        android:label="Setup user"/>
+    <fragment
+        android:id="@+id/enterPasswordFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SetUserPasswordFragmentOne"
+        android:label="Set You Password"/>
+    <fragment android:id="@+id/mySetPassword"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.AskingSetPassword"
+        android:label="Set Password"
+        tools:layout="@layout/layout_set_password_new"/>
+    <fragment
+        android:id="@+id/trimFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.TrimFragment"
+        android:label="Trim Video"/>
+    <fragment
+        android:id="@+id/mySetting"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.MySettingFragment"
+        android:label="Setting Fragment"/>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.HomeFragment"
+        android:label="Screen &amp; Video Recorder" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cameraPreviewFragment"
+            app:destination="@id/cameraPreviewFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_feedbackFragment"
+            app:destination="@id/feedbackFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_filesFragment"
+            app:destination="@id/filesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_trimFragment"
+            app:destination="@id/trimFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favFilesFragment"
+            app:destination="@id/favFilesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_verifyPassword"
+            app:destination="@id/verifyPassword" />
+        <action
+            android:id="@+id/action_homeFragment_to_exitFragment"
+            app:destination="@id/exitFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_imageFragment"
+            app:destination="@id/imageFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_screenRecordingFragment2"
+            app:destination="@id/screenRecordingFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_imagePickerFragment"
+            app:destination="@id/imagePickerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_albumFragment"
+            app:destination="@id/albumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SettingsFragment"
+        android:label="Settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_verifyUserFragment2"
+            app:destination="@id/verifyUserFragment2" />
+        <action
+            android:id="@+id/action_settingsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/cameraPreviewFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.CameraPreviewFragment"
+        android:label="CameraPreviewFragment" >
+        <action
+            android:id="@+id/action_cameraPreviewFragment_to_filesFragment"
+            app:destination="@id/filesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedbackFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.FeedbackFragment"
+        android:label="Feedback" />
+    <fragment
+        android:id="@+id/filesFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.FilesFragment"
+        android:label="Files" >
+        <action
+            android:id="@+id/action_filesFragment_to_favFilesFragment"
+            app:destination="@id/favFilesFragment" />
+        <action
+            android:id="@+id/action_filesFragment_to_exoplayerFragment"
+            app:destination="@id/exoplayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favFilesFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.FavFilesFragment"
+        android:label="Favourites" >
+        <action
+            android:id="@+id/action_favFilesFragment_to_exoplayerFragment"
+            app:destination="@id/exoplayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exoplayerFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ExoplayerFragment"
+        android:label="ExoplayerFragment" />
+    <fragment
+        android:id="@+id/verifyUserFragment2"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.VerifyUserFragment"
+        android:label="VerifyUserFragment" />
+    <fragment
+        android:id="@+id/verifyPassword"
+        android:name="com.background.video.recorder.camera.recorder.VerifyPassword"
+        android:label="Verify"
+        tools:layout="@layout/fragment_verify_password" />
+    <fragment
+        android:id="@+id/myForgotFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ForgotFragment"
+        android:label="Forgot"
+        tools:layout="@layout/layout_forgot"/>
+    <fragment
+        android:id="@+id/exitFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ExitFragment"
+        android:label="Exit" >
+        <action
+            android:id="@+id/action_exitFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ImageFragment"
+        android:label="ImageFragment" />
+    <fragment
+        android:id="@+id/facebookFragment"
+        android:name="com.background.video.recorder.camera.recorder.facebookopractice.FacebookFragment"
+        android:label="fragment_facebook"
+        tools:layout="@layout/fragment_facebook" />
+    <fragment
+        android:id="@+id/screenRecordingFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.practice.ScreenRecordingFragment"
+        android:label="Screen Recorder"
+        tools:layout="@layout/fragment_screen_recording" >
+        <action
+            android:id="@+id/action_screenRecordingFragment_to_videoViewFragment"
+            app:destination="@id/videoViewFragment" />
+        <action
+            android:id="@+id/action_screenRecordingFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+        <action
+            android:id="@+id/action_screenRecordingFragment_to_galleryFragment2"
+            app:destination="@id/galleryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_galleryFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_galleryFragment_to_screenRecordingFragment"
+            app:destination="@id/screenRecordingFragment" />
+        <action
+            android:id="@+id/action_galleryFragment_to_videoViewFragment"
+            app:destination="@id/videoViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoViewFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.practice.VideoViewFragment"
+        android:label="fragment_video_view"
+        tools:layout="@layout/fragment_video_view" >
+        <action
+            android:id="@+id/action_videoViewFragment_to_screenRecordingFragment"
+            app:destination="@id/screenRecordingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/permissions2"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.Permissions"
+        android:label="fragment_permissions"
+        tools:layout="@layout/fragment_permissions" />
+
+    <fragment
+        android:id="@+id/albumFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.AlbumFragment"
+        android:label="Album"
+        tools:layout="@layout/fragment_album" >
+        <action
+            android:id="@+id/action_albumFragment_to_imageViewFragment"
+            app:destination="@id/imageViewFragment" />
+        <action
+            android:id="@+id/action_albumFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/imageViewFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ImageViewFragment"
+        android:label="Album" >
+        <action
+            android:id="@+id/action_imageViewFragment_to_albumFragment"
+            app:destination="@id/albumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ShareFragment"
+        android:label="Share" >
+        <action
+            android:id="@+id/action_shareFragment_to_albumFragment"
+            app:destination="@id/albumFragment" />
+        <action
+            android:id="@+id/action_shareFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenRecordingFragment2"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ScreenRecordingFragment"
+        android:label="ScreenRecording"
+        tools:layout="@layout/fragment_screen_recording2" >
+
+        <action
+            android:id="@+id/action_screenRecordingFragment2_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+        <action
+            android:id="@+id/action_screenRecordingFragment2_to_homeFragment2"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imagePickerFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ImagePickerFragment"
+        android:label="ImagePicker" >
+        <action
+            android:id="@+id/action_imagePickerFragment_to_processFragment"
+            app:destination="@id/processFragment" />
+        <action
+            android:id="@+id/action_imagePickerFragment_to_editImageFragment"
+            app:destination="@id/editImageFragment" />
+        <action
+            android:id="@+id/action_imagePickerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/processFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.ProcessFragment"
+        android:label="Collage" >
+        <action
+            android:id="@+id/action_processFragment_to_shareFragment"
+            app:destination="@id/shareFragment" />
+        <action
+            android:id="@+id/action_processFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.background.video.recorder.camera.recorder.onboarding.OnBoardingFragment"
+        android:label="OnBoarding" >
+        <action
+            android:id="@+id/action_onBoardingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editImageFragment"
+        android:name="com.background.video.recorder.camera.recorder.practice.EditImageFragment"
+        android:label="PhotoEditor" >
+        <action
+            android:id="@+id/action_editImageFragment_to_shareFragment"
+            app:destination="@id/shareFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preHomeFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.PreHomeFragment"
+        android:label="fragment_pre_home"
+        tools:layout="@layout/fragment_pre_home" />
+</navigation>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/premiun_bg_new"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iLikeAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/i_like_ad_new"
+            app:layout_constraintBottom_toTopOf="@+id/madel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/madel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/medal"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/iLikeAd"
+            app:layout_constraintTop_toBottomOf="@+id/iLikeAd" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/heading"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="10dp"-->
+        <!--            android:autoSizeMaxTextSize="22sp"-->
+        <!--            android:autoSizeMinTextSize="9sp"-->
+        <!--            android:autoSizeTextType="uniform"-->
+        <!--            android:gravity="start"-->
+        <!--            android:maxLines="1"-->
+        <!--            android:text="@string/background_video"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="22sp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toEndOf="@+id/madel"-->
+        <!--            app:layout_constraintTop_toTopOf="@id/madel"-->
+        <!--            app:layout_constraintWidth_percent=".5" />-->
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/noAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:drawableStart="@drawable/inn_app_tick"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:text="AD Free Experience"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/cSupport"
+        app:layout_constraintStart_toStartOf="@+id/heading1"
+        app:layout_constraintTop_toBottomOf="@+id/heading1" />
+
+    <TextView
+        android:id="@+id/cSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/inn_app_tick"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:text="Faster Processing"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/noAd"
+        app:layout_constraintTop_toBottomOf="@+id/noAd" />
+
+    <TextView
+        android:id="@+id/noAds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:drawableStart="@drawable/inn_app_tick"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:text="HD Video Export"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/noAd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noAd"
+        app:layout_constraintTop_toTopOf="@+id/noAd" />
+
+    <TextView
+        android:id="@+id/cSupportss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/inn_app_tick"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:text="Premium Features"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="@+id/cSupport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/noAds"
+        app:layout_constraintTop_toBottomOf="@+id/noAd" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="start"
+        android:maxLines="1"
+        android:text="Get"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/heading1"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="@string/recoder"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="22sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            app:layout_constraintBottom_toTopOf="@+id/noAd"-->
+    <!--            app:layout_constraintStart_toStartOf="@+id/heading"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/heading" />-->
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Access"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/heading"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/continue_btn_bg_new"
+        android:gravity="center"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="3dp"
+        android:text="@string/pro"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/heading"
+        app:layout_constraintStart_toEndOf="@+id/heading"
+        app:layout_constraintTop_toTopOf="@+id/heading" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:foregroundGravity="center"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".24"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cSupport">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:foregroundGravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/oneYearSaveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:text="@string/save_30"
+                android:textColor="@color/white"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toTopOf="@id/oneYear"
+                app:layout_constraintEnd_toEndOf="@id/oneYear"
+                app:layout_constraintStart_toStartOf="@id/oneYear"
+                app:layout_constraintTop_toTopOf="@id/oneYear" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/oneWeekSaveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/endColor"
+                android:text="@string/save_20"
+                android:textColor="@color/white"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toTopOf="@id/oneWeek"
+                app:layout_constraintEnd_toEndOf="@id/oneWeek"
+                app:layout_constraintStart_toStartOf="@id/oneWeek"
+                app:layout_constraintTop_toTopOf="@id/oneWeek" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/oneMonthSaveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/endColor"
+                android:text="@string/save_25"
+                android:textColor="@color/white"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toTopOf="@id/oneMonth"
+                app:layout_constraintEnd_toEndOf="@id/oneMonth"
+                app:layout_constraintStart_toStartOf="@id/oneMonth"
+                app:layout_constraintTop_toTopOf="@id/oneMonth" />
+
+            <LinearLayout
+                android:id="@+id/oneMonth"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/unselected_bg"
+                android:elevation="1dp"
+                android:orientation="vertical"
+                android:weightSum="3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/oneYear"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:text="@string/_1_month"
+                    android:textColor="@color/endColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/monthlyPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="5dp"
+                    android:gravity="center"
+                    android:text="4.99$"
+                    android:textColor="@color/endColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center|bottom"
+                    android:text="@string/pro_access_for_1_month"
+                    android:textColor="@color/endColor"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/oneYear"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/one_year_bg"
+                android:elevation="1dp"
+                android:orientation="vertical"
+                android:weightSum="3"
+                app:layout_constraintBottom_toBottomOf="@id/oneMonth"
+                app:layout_constraintEnd_toStartOf="@+id/oneWeek"
+                app:layout_constraintStart_toEndOf="@+id/oneMonth"
+                app:layout_constraintTop_toTopOf="@+id/oneMonth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2.2"
+                    android:gravity="bottom"
+                    android:text="@string/_1_year"
+                    android:textColor="@color/endColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/yearlyPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="14.99$"
+                    android:textColor="@color/endColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center|bottom"
+                    android:text="@string/pro_access_for_1_year"
+                    android:textColor="@color/endColor"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/oneWeek"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/unselected_bg"
+                android:elevation="1dp"
+                android:orientation="vertical"
+                android:weightSum="3"
+                app:layout_constraintEnd_toStartOf="@+id/lifeTimeCardView"
+                app:layout_constraintBottom_toBottomOf="@id/oneYear"
+                app:layout_constraintStart_toEndOf="@+id/oneYear"
+                app:layout_constraintTop_toTopOf="@id/oneYear">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2.2"
+                    android:gravity="bottom"
+                    android:text="@string/_1_week"
+                    android:textColor="@color/endColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/weeklyPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="1.99$"
+                    android:textColor="@color/endColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center|bottom"
+                    android:text="@string/pro_access_for_1_week"
+                    android:textColor="@color/endColor"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lifeTimeCardView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/white"
+                android:layout_marginHorizontal="10dp"
+                app:cardCornerRadius="12dp"
+                app:layout_constraintStart_toEndOf="@+id/oneWeek"
+                app:layout_constraintTop_toTopOf="@+id/oneWeek"
+                app:layout_constraintBottom_toBottomOf="@+id/oneWeek"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent=".2"
+                app:layout_constraintWidth_percent=".9">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/lifetime_bg">
+
+
+                    <!--            <com.airbnb.lottie.LottieAnimationView-->
+                    <!--                android:id="@+id/crown"-->
+                    <!--                android:layout_width="80dp"-->
+                    <!--                android:layout_height="80dp"-->
+                    <!--                android:layout_margin="10dp"-->
+                    <!--                app:layout_constraintStart_toStartOf="parent"-->
+                    <!--                app:layout_constraintTop_toTopOf="parent"-->
+                    <!--                app:lottie_autoPlay="true"-->
+                    <!--                app:lottie_loop="true"-->
+                    <!--                app:lottie_rawRes="@raw/crown_lottie" />-->
+
+                    <!--            <View-->
+                    <!--                android:id="@+id/viewww"-->
+                    <!--                android:layout_width="1dp"-->
+                    <!--                android:layout_height="0dp"-->
+                    <!--                android:layout_marginStart="10dp"-->
+                    <!--                android:background="@color/endColor"-->
+                    <!--                app:layout_constraintBottom_toBottomOf="@+id/crown"-->
+                    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--                app:layout_constraintHeight_percent=".35"-->
+                    <!--                app:layout_constraintHorizontal_bias="0.5"-->
+                    <!--                app:layout_constraintStart_toEndOf="@+id/crown"-->
+                    <!--                app:layout_constraintStart_toStartOf="parent"-->
+                    <!--                app:layout_constraintTop_toTopOf="@+id/crown" />-->
+
+                    <TextView
+                        android:id="@+id/crownTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/platinum"
+                        android:textColor="@color/endColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.1" />
+
+                    <TextView
+                        android:id="@+id/lifeTimePrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19.99 $"
+                        android:textColor="@color/endColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/life_time"
+                        android:textColor="@color/endColor"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/crownTxt" />
+
+                    <!--            <TextView-->
+                    <!--                android:layout_width="0dp"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:background="#EC2323"-->
+                    <!--                android:backgroundTint="#EC2323"-->
+                    <!--                android:gravity="center"-->
+                    <!--                android:paddingVertical="10dp"-->
+                    <!--                android:text="@string/buy_now"-->
+                    <!--                android:textColor="@color/white"-->
+                    <!--                android:textSize="12sp"-->
+                    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+                    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+                    <!--                app:layout_constraintStart_toStartOf="parent"-->
+                    <!--                app:layout_constraintTop_toBottomOf="@+id/crown"-->
+                    <!--                app:layout_constraintWidth_percent=".35" />-->
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/continueBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/black"
+        android:background="@color/black"
+        app:cardCornerRadius="10dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/privacyTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        app:layout_constraintWidth_percent=".9" >
+
+        <TextView
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:id="@+id/privacyTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:autoSizeMaxTextSize="16sp"
+        android:autoSizeMinTextSize="14sp"
+        android:gravity="center"
+        android:lineHeight="20dp"
+        android:maxLines="2"
+        android:paddingVertical="5dp"
+        android:text="@string/by_using_our_app_you_agree_to_our_terms_condition_privacy_policy"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continueBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

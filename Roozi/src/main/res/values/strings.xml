@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kamai</string>
+    <string name="image_description">null</string>
+    <string name="ad_is_loading">Ad is loading</string>
+    <string name="like_add">I like ads</string>
+    <string name="jpg_converter">JPG Converter</string>
+    <string name="pro">Pro</string>
+    <string name="life_time">/ Life time</string>
+<!--    <string name="by_using_our_app_you_agree_to_our_terms_condition_privacy_policy">By Using Our App, You Agree to Our <b><u>Terms &amp; Condition</u></b>  &amp;<b><u> Privacy Policy.</u></b></string>-->
+<!--    <string name="by_using_our_app_you_agree_to_our_terms_condition_privacy_policy">By Using Our App, You Agree to Our\n<b><u>Terms &amp; Condition</u></b>  &amp;<b><u> Privacy Policy.\n after a successful subscription, you can have  unlimited access to all paid features and contents. according to google play policies, your subscription will be automatically renewed. if you need to cancel, please visit google play 24 hours in advanced at least turn off auto renew before the end of the current subscription. the subscription fee will be charged through the payment channel tied to your google account.</u></b></string>-->
+    <string name="by_using_our_app_you_agree_to_our_terms_condition_privacy_policy">Cancel Anytime For Any Reason\n<b><u>Terms &amp; Condition</u></b>  &amp;<b><u> Privacy Policy.\n after a successful subscription, you can have  unlimited access to all paid features and contents. according to google play policies, your subscription will be automatically renewed. if you need to cancel, please visit google play 24 hours in advanced at least turn off auto renew before the end of the current subscription. the subscription fee will be charged through the payment channel tied to your google account.</u></b></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="_24_7_customer_support">24/7 Customer Support</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="background_video">Background Video</string>
+    <string name="recoder">Recoder</string>
+    <string name="platinum">Platinum</string>
+    <string name="save_20">Save 20%</string>
+    <string name="save_25">Save 25%</string>
+    <string name="_1_month">/ 1 Month</string>
+    <string name="pro_access_for_1_month">Pro Access for 1 Month</string>
+    <string name="_1_year"> / 1 Year</string>
+    <string name="pro_access_for_1_year">Pro Access for\n1 Year</string>
+    <string name="_1_week"> / 1 Week</string>
+    <string name="pro_access_for_1_week">Pro Access for 1 Week</string>
+    <string name="continue_">Continue</string>
+    <string name="save_30">Save 30%</string>
+    <string name="cancel_any_time">Cancel Any TIme</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Sticker</string>
+
+    ///////////Editor Bottom Layout
+    <string name="plus_btn_sel" translatable="false">Photo</string>
+    <string name="text_btn" translatable="false">Text</string>
+    <string name="blend_btn2" translatable="false">Photo Blender</string>
+    <string name="border_btn" translatable="false">Border</string>
+    <string name="sticker_btn" translatable="false">Stickers</string>
+    <string name="frame_btn" translatable="false">Frames</string>
+    <string name="save_btn" translatable="false">Save</string>
+    <string name="swipe_btn" translatable="false">Swipe</string>
+    <string name="background_btn" translatable="false">Background</string>
+    <string name="paint_btn" translatable="false">Paint</string>
+    <string name="eraser_btn" translatable="false">Eraser</string>
+    <string name="brightness_btn" translatable="false">Brightness</string>
+    <string name="saturation_btn" translatable="false">Saturation</string>
+    <string name="filter" translatable="false">Filters</string>
+    <string name="glitch" translatable="false">Glitch</string>
+    <string name="light_fx" translatable="false">Light FX</string>
+    <string name="blur" translatable="false">Blur</string>
+    <string name="crop" translatable="false">Crop</string>
+
+    /////////Editor layout
+    <string name="add_txt">Add Text</string>
+    <string name="font_txt">Calligraphy</string>
+    <string name="textColor_txt">Text Color</string>
+    <string name="bgColor_txt">Background Color</string>
+    <string name="border_txt">Border</string>
+    <string name="shadow_text">Shadow</string>
+    <string name="gradientColor_txt">Gradient</string>
+
+    //////////Text Layout
+    <string name="textLayout_done" translatable="false">Done</string>
+    <string name="textLayout_font_color" translatable="false">FONT COLOR</string>
+    <string name="textLayout_font_opacity" translatable="false">FONT OPACITY</string>
+    <string name="textLayout_shadow" translatable="false">SHADOW</string>
+    <string name="textLayout_text_bg_color" translatable="false">TEXT BACKGROUND</string>
+    <string name="textLayout_text_bg_opacity" translatable="false">BACKGROUND OPACITY</string>
+    <string name="typesomething" translatable="false">Tap To Type here</string>
+
+</resources>

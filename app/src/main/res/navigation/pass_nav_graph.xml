@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pass_nav_graph"
+    app:startDestination="@id/setUserPasswordFragmentOne">
+    <fragment
+        android:id="@+id/setUserPasswordFragmentOne"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SetUserPasswordFragmentOne"
+        android:label="SetUserPasswordFragmentOne" >
+        <action
+            android:id="@+id/action_setUserPasswordFragmentOne_to_setUserFragment"
+            app:destination="@id/setUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setUserFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SetUserFragment"
+        android:label="SetUserFragment" >
+        <action
+            android:id="@+id/action_setUserFragment_to_securityFragment"
+            app:destination="@id/securityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/securityFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SecurityFragment"
+        android:label="SecurityFragment" >
+        <action
+            android:id="@+id/action_securityFragment_to_savedSuccessFragment"
+            app:destination="@id/savedSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedSuccessFragment"
+        android:name="com.background.video.recorder.camera.recorder.ui.fragment.SavedSuccessFragment"
+        android:label="SavedSuccessFragment" />
+</navigation>

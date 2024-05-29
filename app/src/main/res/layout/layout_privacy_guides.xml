@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingHorizontal="@dimen/spacing_standard"
+    android:paddingVertical="@dimen/spacing_xlarge">
+
+    <View
+        android:id="@+id/PrivacyViewSep"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvPrivacyMatters"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/your_privacy_matters"
+        android:textSize="36sp"
+        android:maxLines="1"
+        android:textColor="#EE5045"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/PrivacyViewSep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvPrivacyDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_small"
+        android:text="@string/ask_permission_to_record_videos"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrivacyMatters" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/PrivacyAnim"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrivacyDescription"
+        app:layout_constraintWidth_percent="0.6"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/anim_privacy" />
+
+    <TextView
+        android:id="@+id/tvPrivacyLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_privacy_policy"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="@color/color_primary"
+        android:textSize="@dimen/spacing_standard"
+        app:layout_constraintBottom_toTopOf="@+id/btnGetStarted"
+        app:layout_constraintEnd_toEndOf="@+id/btnGetStarted"
+        app:layout_constraintStart_toStartOf="@+id/btnGetStarted"
+        app:layout_constraintTop_toBottomOf="@+id/PrivacyAnim" />
+
+    <ImageView
+        android:id="@+id/btnGetStarted"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/touch_min_size"
+        android:layout_marginTop="@dimen/spacing_standard"
+        android:scaleX="1.1"
+        android:scaleY="1.5"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/get_started_new"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PrivacyAnim"
+        app:layout_constraintWidth_percent="0.5" />
+
+
+
+    <TextView
+        android:id="@+id/tvGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:text="@string/get_started"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGetStarted"
+        app:layout_constraintEnd_toEndOf="@+id/btnGetStarted"
+        app:layout_constraintStart_toStartOf="@+id/btnGetStarted"
+        app:layout_constraintTop_toTopOf="@+id/btnGetStarted" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

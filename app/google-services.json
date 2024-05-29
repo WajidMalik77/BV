@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402219701229",
+    "project_id": "backgroundvideorecorder-d1a7f",
+    "storage_bucket": "backgroundvideorecorder-d1a7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402219701229:android:4b667f7009f1696eb18de4",
+        "android_client_info": {
+          "package_name": "com.background.video.recorder.camera.recorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402219701229-gtf08asi0pljc3c2pnfaec6molgd410i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZO5Z_sbdZ9rIb4QvN1h7HvUvTAPTrsI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402219701229-gtf08asi0pljc3c2pnfaec6molgd410i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ads.NativeAdLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.ads.MediaView
+            android:id="@+id/fb_native_ad_icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="#878383"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fb_native_ad_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:layout_marginStart="5dp"
+            android:text="This is the ad title or headline"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/fb_native_ad_icon"
+            app:layout_constraintTop_toTopOf="@+id/fb_native_ad_icon" />
+
+        <TextView
+            android:id="@+id/fb_native_ad_sponsored_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="This is ad body area"
+            android:lines="1"
+            android:layout_marginTop="3dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/fb_native_ad_title"
+            app:layout_constraintTop_toBottomOf="@+id/fb_native_ad_title" />
+
+        <com.facebook.ads.MediaView
+            android:id="@+id/fb_native_ad_media"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#878383"
+            android:layout_marginVertical="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/fb_native_ad_social_context"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/fb_native_ad_icon"
+            app:layout_constraintTop_toBottomOf="@+id/fb_native_ad_icon" />
+
+        <TextView
+            android:id="@+id/fb_native_ad_social_context"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:layout_marginHorizontal="5dp"
+            android:text="This is the ad title or headline"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/fb_native_ad_body"
+            app:layout_constraintEnd_toStartOf="@+id/fb_native_ad_call_to_action"
+            app:layout_constraintStart_toStartOf="@+id/fb_native_ad_media"
+            app:layout_constraintTop_toBottomOf="@id/fb_native_ad_media" />
+
+        <TextView
+            android:id="@+id/fb_native_ad_body"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="This is the ad title or headline"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/fb_native_ad_call_to_action"
+            app:layout_constraintEnd_toEndOf="@id/fb_native_ad_social_context"
+            app:layout_constraintStart_toStartOf="@id/fb_native_ad_social_context"
+            app:layout_constraintTop_toBottomOf="@+id/fb_native_ad_social_context" />
+
+        <Button
+            android:id="@+id/fb_native_ad_call_to_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/cta_bg"
+            android:backgroundTint="@color/black"
+            android:layout_margin="3dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:text="Read More"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fb_native_ad_social_context"
+            app:layout_constraintTop_toBottomOf="@id/fb_native_ad_media" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.facebook.ads.NativeAdLayout>

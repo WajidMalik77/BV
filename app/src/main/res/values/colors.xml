@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="start_btn_color">#1F1F1F</color>
+    <color name="second_color_light_black">#1E1F21</color>
+    <color name="custom_main_dark">#439746</color>
+    <color name="custom_main">#FFBB86FC</color>
+
+
+
+    <color name="blue_color_picker">#0066FF</color>
+
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <!--  Colors From Xd file  -->
+
+    <color name="light_grey_screen_bgnd">#F3F3F3</color>
+    <color name="color_primary">#FF2159</color>
+    <color name="app_main_color">#FF2159</color>
+
+    <!--  Colors From Xd file  -->
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_300">#81C784</color>
+
+    <color name="startColor">#F5D704</color>
+    <color name="endColor">#FF2159</color>
+    <color name="green">#3AA439</color>
+    <color name="pink_color_main">#FF2159</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_dark_70">#B3000000</color>
+    <color name="overlay_dark_80">#CC000000</color>
+    <color name="overlay_dark_90">#E6000000</color>
+
+    <color name="overlay_light_10">#1AFFFFFF</color>
+    <color name="overlay_light_20">#33FFFFFF</color>
+    <color name="overlay_light_30">#4DFFFFFF</color>
+    <color name="overlay_light_40">#66FFFFFF</color>
+    <color name="overlay_light_50">#8FFFFFF0</color>
+    <color name="overlay_light_60">#99FFFFFF</color>
+    <color name="overlay_light_70">#B3FFFFFF</color>
+    <color name="overlay_light_80">#CCFFFFFF</color>
+    <color name="overlay_light_90">#E6FFFFFF</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+
+
+    <!--Material color list from https://material.io/guidelines/style/color.html-->
+
+    <color name="red_50">#FFEBEE</color>
+    <color name="red_100">#FFCDD2</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="red_300">#E57373</color>
+    <color name="red_400">#EF5350</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_600">#E53935</color>
+    <color name="red_700">#D32F2F</color>
+    <color name="red_800">#C62828</color>
+    <color name="red_900">#B71C1C</color>
+    <color name="red_A100">#FF8A80</color>
+    <color name="red_A200">#FF5252</color>
+    <color name="red_A400">#FF1744</color>
+    <color name="red_A700">#D50000</color>
+
+    <color name="deep_purple_50">#EDE7F6</color>
+    <color name="deep_purple_100">#D1C4E9</color>
+    <color name="deep_purple_200">#B39DDB</color>
+    <color name="deep_purple_300">#9575CD</color>
+    <color name="deep_purple_400">#7E57C2</color>
+    <color name="deep_purple_500">#673AB7</color>
+    <color name="deep_purple_600">#5E35B1</color>
+    <color name="deep_purple_700">#512DA8</color>
+    <color name="deep_purple_800">#4527A0</color>
+    <color name="deep_purple_900">#311B92</color>
+    <color name="deep_purple_A100">#B388FF</color>
+    <color name="deep_purple_A200">#7C4DFF</color>
+    <color name="deep_purple_A400">#651FFF</color>
+    <color name="deep_purple_A700">#6200EA</color>
+
+
+    <color name="purple_50">#F3E5F5</color>
+    <color name="purple_100">#E1BEE7</color>
+    <color name="purple_200">#CE93D8</color>
+    <color name="purple_300">#BA68C8</color>
+    <color name="purple_400">#AB47BC</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_600">#8E24AA</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="purple_800">#6A1B9A</color>
+    <color name="purple_900">#4A148C</color>
+    <color name="purple_A100">#EA80FC</color>
+    <color name="purple_A200">#E040FB</color>
+    <color name="purple_A400">#D500F9</color>
+    <color name="purple_A700">#AA00FF</color>
+
+    <color name="blue_50">#E3F2FD</color>
+    <color name="blue_100">#BBDEFB</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_300">#64B5F6</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="blue_900">#0D47A1</color>
+    <color name="blue_A100">#82B1FF</color>
+    <color name="blue_A200">#448AFF</color>
+    <color name="blue_A400">#2979FF</color>
+    <color name="blue_A700">#2962FF</color>
+
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+
+
+
+
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_1000">#1a1a1a</color>
+    <color name="fav_files_bgnd">#FF0000</color>
+
+    <color name="shadow_color">#00000000</color>
+    <color name="red">#F44336</color>
+    <color name="exit_screen_color">#FF2159</color>
+    <color name="first_color_gradient">#FFCB82</color>
+
+    <color name="colorPrimary">#F9504D</color>
+    <color name="seekbargray">#ff838383</color>
+    <color name="progvress_barcolor">#FD506F</color>
+    <color name="pink">#E74C82</color>
+    <color name="grey">#323232</color>
+
+
+
+
+    <color name="transparent1">#1AF44336</color>
+    <color name="transparent2">#1AE91E63</color>
+    <color name="transparent3">#1A9C27B0</color>
+    <color name="transparent4">#1A673AB7</color>
+    <color name="transparent5">#1A3F51B5</color>
+    <color name="transparent6">#1A2196F3</color>
+    <color name="transparent7">#1A03A9F4</color>
+    <color name="transparent8">#1A00BCD4</color>
+    <color name="transparent9">#1A009688</color>
+    <color name="transparent10">#1A4CAF50</color>
+    <color name="transparent11">#1A8BC34A</color>
+    <color name="transparent12">#1ACDDC39</color>
+    <color name="transparent13">#1AFFEB3B</color>
+    <color name="transparent14">#1AFFC107</color>
+    <color name="transparent15">#1AFF9800</color>
+    <color name="transparent16">#1AFF5722</color>
+    <color name="transparent17">#1A000000</color>
+    <color name="transparent17a">#1AFFFFFF</color>
+    <color name="transparent18">#33F44336</color>
+    <color name="transparent19">#33E91E63</color>
+    <color name="transparent20">#339C27B0</color>
+    <color name="transparent21">#33673AB7</color>
+    <color name="transparent22">#333F51B5</color>
+    <color name="transparent23">#332196F3</color>
+    <color name="transparent24">#3303A9F4</color>
+    <color name="transparent25">#3300BCD4</color>
+    <color name="transparent26">#33009688</color>
+    <color name="transparent27">#334CAF50</color>
+    <color name="transparent28">#338BC34A</color>
+    <color name="transparent29">#33CDDC39</color>
+    <color name="transparent30">#33FFEB3B</color>
+    <color name="transparent31">#33FFC107</color>
+    <color name="transparent32">#33FF9800</color>
+    <color name="transparent33">#33FF5722</color>
+    <color name="transparent34">#33000000</color>
+    <color name="transparent35">#33FFFFFF</color>
+    <color name="transparent36">#4DF44336</color>
+    <color name="transparent37">#4DE91E63</color>
+    <color name="transparent38">#4D9C27B0</color>
+    <color name="transparent39">#4D673AB7</color>
+    <color name="transparent40">#4D3F51B5</color>
+    <color name="transparent41">#4D2196F3</color>
+    <color name="transparent42">#4D03A9F4</color>
+    <color name="transparent43">#4D00BCD4</color>
+    <color name="transparent44">#4D009688</color>
+    <color name="transparent45">#4D4CAF50</color>
+    <color name="transparent46">#4D8BC34A</color>
+    <color name="transparent47">#4DCDDC39</color>
+    <color name="transparent48">#4DFFEB3B</color>
+    <color name="transparent49">#4DFFC107</color>
+    <color name="transparent50">#4DFF9800</color>
+    <color name="transparent51">#4DFF5722</color>
+    <color name="transparent52">#4D000000</color>
+    <color name="transparent52a">#4DFFFFFF</color>
+
+    <array name="filters">
+        <item>@color/transparent1</item>
+        <item>@color/transparent2</item>
+        <item>@color/transparent3</item>
+        <item>@color/transparent4</item>
+        <item>@color/transparent5</item>
+        <item>@color/transparent6</item>
+        <item>@color/transparent7</item>
+        <item>@color/transparent8</item>
+        <item>@color/transparent9</item>
+        <item>@color/transparent10</item>
+        <item>@color/transparent11</item>
+        <item>@color/transparent12</item>
+        <item>@color/transparent13</item>
+        <item>@color/transparent14</item>
+        <item>@color/transparent15</item>
+        <item>@color/transparent16</item>
+        <item>@color/transparent17</item>
+        <item>@color/transparent17a</item>
+        <item>@color/transparent18</item>
+        <item>@color/transparent19</item>
+        <item>@color/transparent20</item>
+        <item>@color/transparent21</item>
+        <item>@color/transparent22</item>
+        <item>@color/transparent23</item>
+        <item>@color/transparent24</item>
+        <item>@color/transparent25</item>
+        <item>@color/transparent26</item>
+        <item>@color/transparent27</item>
+        <item>@color/transparent28</item>
+        <item>@color/transparent29</item>
+        <item>@color/transparent30</item>
+        <item>@color/transparent31</item>
+        <item>@color/transparent32</item>
+        <item>@color/transparent33</item>
+        <item>@color/transparent34</item>
+        <item>@color/transparent35</item>
+        <item>@color/transparent36</item>
+        <item>@color/transparent37</item>
+        <item>@color/transparent38</item>
+        <item>@color/transparent39</item>
+        <item>@color/transparent40</item>
+        <item>@color/transparent41</item>
+        <item>@color/transparent42</item>
+        <item>@color/transparent43</item>
+        <item>@color/transparent44</item>
+        <item>@color/transparent45</item>
+        <item>@color/transparent46</item>
+        <item>@color/transparent47</item>
+        <item>@color/transparent48</item>
+        <item>@color/transparent49</item>
+        <item>@color/transparent50</item>
+        <item>@color/transparent51</item>
+        <item>@color/transparent52</item>
+        <item>@color/transparent52a</item>
+    </array>
+
+</resources>

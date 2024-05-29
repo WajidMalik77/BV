@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppBottomSheetDialogTheme">
+        <![CDATA[<!-- BottomSheet Dialog-->   <style name="BottomSheetDialog_Rounded" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">     <item name="bottomSheetStyle">@style/BottomSheet_Rounded</item>   </style>    <style name="BottomSheet_Rounded" parent="Widget.MaterialComponents.BottomSheet">     <item name="shapeAppearanceOverlay">@style/ShapeAppearanceBottomSheetDialog_Rounded</item>   </style> ]]></style>
+
+
+    <style name="CustomDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+<!--    <style name="AdTheme">-->
+<!--        <item name="android:background">@color/black</item>-->
+<!--        <item name="android:windowBackground">@color/black</item>-->
+<!--        <item name="android:windowExitAnimation">@null</item>-->
+<!--        <item name="android:windowEnterAnimation">@null</item>-->
+<!--    </style>-->
+
+    <style name="Widget.Theme.PicCollageMakerPicEditor.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/white</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#cfcfcf</item>
+        <item name="android:progressTint">#ffffff</item>
+        <item name="android:thumbTint">#ffffff</item>
+    </style>
+
+    <style name="BluePrimaryButton" parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">@android:color/black</item>
+    </style>
+
+    <style name="MyRadioButtonStyle" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="buttonTint">@drawable/radiobtn_state</item>
+    </style>
+
+
+    <style name="CustomAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@drawable/custom_dialog_background</item>
+    </style>
+
+
+    <!-- <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+         <item name="colorPrimary">@color/white</item>
+         <item name="colorPrimaryDark">@color/white</item>
+         <item name="android:windowBackground">@drawable/splash_bg</item>
+     </style>-->
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+
+<!--    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">-->
+<!--        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>-->
+<!--        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>-->
+<!--    </style>-->
+
+<!--    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">-->
+<!--        <item name="android:textColor">#000000</item>-->
+<!--    </style>-->
+
+<!--    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">-->
+<!--        <item name="android:textColor">#000000</item>-->
+<!--    </style>-->
+</resources>

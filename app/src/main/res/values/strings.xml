@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Screen &amp; Video Recorder</string>
+    // color for selected item
+    <string name="selected_item_color" translatable="false">#FFBF00</string>
+    <string name="delete_dialog_text">Are you sure you want to \n delete these files?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="ok">OK</string>
+    <string name="recording_limit_sample">004</string>
+    <string name="back">Back</string>
+    <string name="security_question">Security Question</string>
+    <string name="your_passcode_will_be">Enter your 4-digit password</string>
+    <string name="feedback_title">Thank you for staying with us!</string>
+    <string name="password_status_description">Please Wait \nYour credentials have been saved</string>
+    <string name="submit">Submit</string>
+    <string name="question_sample">What was your first pet name?</string>
+    <string name="hi_fellas">Background Video Recorder</string>
+    <string name="welcome_to_background_video_recorder">Welcome to Background Video Recorder</string>
+    <string name="your_privacy_matters">Your Privacy Matters</string>
+    <string name="set_password_description">You can set a password from here and from the</string>
+    <string name="set_password">Set Password</string>
+    <string name="not_now">Not Now</string>
+    <string name="saving_description">We are saving your video \n give us a sec…</string>
+    <string name="front_camera">Front Camera</string>
+    <string name="back_camera">Back Camera</string>
+    <string name="lock_your_app_when_exit">Lock your app when exit</string>
+    <string name="select_video_quality">Select video quality</string>
+    <string name="app_lock">App Lock</string>
+    <string name="video_quality">Video Quality</string>
+    <string name="mediaplayer">Media Player</string>
+    <string name="record_preview">Record + Preview</string>
+    <string name="record">Record</string>
+    <string name="record_description">Press the play button to start recording the video</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="get_started">Get Started</string>
+    <string name="i_agree_to_the_terms_of_condition_privacy_policy">Please wait for a while. We are working on it </string>
+    <string name="deny">Deny</string>
+    <string name="allow">Allow</string>
+    <string name="todo">TODO</string>
+    <string name="permissions_required">Permissions Required!</string>
+    <string name="audio_permission">Audio Permission</string>
+    <string name="required_audio_permission_to_work_properly">Required audio permission to work Properly</string>
+    <string name="permission_req">For best possible experience, the app will require a set of permissions, please grant them.</string>
+    <string name="camera_permission">Camera Permission</string>
+    <string name="required_camera_permission_to_work_properly">Required camera permission to work Properly</string>
+    <string name="storage_permission">Storage Permission</string>
+    <string name="required_storage_permission_to_work_properly">Required storage permission to work Properly</string>
+    <string name="by_using_our_app_you_agree_to_our_terms_condition_privacy_policy">By Using Our App, You Agree to Our <b><u>Terms &amp; Condition</u></b>  &amp;<b><u> Privacy Policy.</u></b></string>
+    <string name="passDiss">You can set a password from here and from the\n settings panel to prevent others from\n using this application.</string>
+    <string name="language">Language</string>
+    <string name="continue_">Continue</string>
+    <string name="select_language">Please select your preferred language</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit_app">Exit App</string>
+    <string name="are_you_sure_you_want_to_exit">Are you sure, you want to exit?</string>
+    <string name="trim_video">Trim Video</string>
+    <string name="loading_advertisement">Loading Advertisement</string>
+    <string name="hide_preview">Hide Preview</string>
+    <string name="sorry">Sorry!</string>
+    <string name="no_video_found">No Video Found!</string>
+    <string name="we_worked_very_hard_to_make_it_serene_for_you">We worked very hard to make it serene for you.</string>
+    <string name="if_you_like_our_app_please_share_your_views_with_us">if you like our app please share your views with us.</string>
+    <string name="loading_ad">Loading Ad…</string>
+    <string name="what_is_your_mother_name">What is your Mother Name?</string>
+    <string name="press_the_button_to_start_recording">Press the button to start recording</string>
+    <string name="recordings">Recordings</string>
+    <string name="favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="general">General</string>
+    <string name="video_camera">Video Camera</string>
+    <string name="silent_record">Silent Record</string>
+    <string name="video_will_have_no_sound_it_could_save_your_video_size">Video will have no sound. it could save your video size</string>
+    <string name="lock">Lock</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="ask_permission_to_record_videos">We will ask your permission before access any data by clicking on gets started you agree to our privacy policy and don\'t worry, we will save your videos only in the app\'s gallery from where you can view, share and delete your recorded videos.</string>
+    <string name="view_privacy_policy">View Privacy Policy</string>
+    <string name="save">Save</string>
+    <string name="please_re_enter_your_4_digit_passcode">Please re enter your 4-digit passcode</string>
+    <string name="please_enter_your_4_digit_passcode">Please enter your 4-digit passcode</string>
+    <string name="like_add">I like ads</string>
+    <string name="jpg_converter">JPG Converter</string>
+    <string name="pro">Pro</string>
+    <string name="life_time">Life time</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="_24_7_customer_support">24/7 Customer Support</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="background_video">Background Video</string>
+    <string name="recoder">Recorder</string>
+    <string name="platinum">Platinum</string>
+    <string name="save_20">Save 20%</string>
+    <string name="save_25">Save 25%</string>
+    <string name="save_30">Save 30%</string>
+    <string name="_1_month">1 Month</string>
+    <string name="pro_access_for_1_month">Pro Access for 1 Month</string>
+    <string name="_1_year">1 Year</string>
+    <string name="pro_access_for_1_year">Pro Access for 1 Year</string>
+    <string name="_1_week">1 Week</string>
+    <string name="pro_access_for_1_week">Pro Access for 1 Week</string>
+    <string name="rename">Rename</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="get_pro_version" translatable="false"><u>Get Pro Version</u></string>
+    <string name="admob_app_ids" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="bg_video_recording">BG Video Recording</string>
+    <string name="native_id_start">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="MainFolderName">VEditor</string>
+    <string name="VideoToGIF">Video To GIF</string>
+    <string name="video_recorder">Video recorder</string>
+    <string name="super_camera">Camera</string>
+    <string name="screen_recorder">Screen Recorder</string>
+    <string name="gallery">Gallery</string>
+    <string name="bg_recorder">BG Recorder</string>
+
+
+    <string name="toolbar_title">Select Image</string>
+    <string name="default_directory" translatable="false">Pictures</string>
+    <string name="selected_image">Select Upto</string>
+    <string name="no_image">No Image</string>
+    <string name="max_count_msg">%1$d images selected already</string>
+    <string name="next">Next</string>
+    <string name="min_count_msg">you have to choice %1$d images</string>
+    <string name="do_you_really_want_to_signout">Do you really wnat to exit ?</string>
+    <string name="sign_out">Exit</string>
+    <string name="sure">Yes</string>
+    <string name="home">Home</string>
+    <string name="collage">Photo Collage</string>
+    <string name="editor">Photo Editor</string>
+    <string name="mirror">Mirror</string>
+    <string name="album">Album</string>
+    <string-array name="tab_titles">
+        <item>Gallery</item>
+    </string-array>
+
+    <string name="label_brush">Brush</string>
+    <string name="msg_save_image_to_share">Image saved successfully</string>
+    <string name="msg_share_image">Share with</string>
+    <string name="label_shape">Shape</string>
+
+    <string name="label_eraser_mode">Eraser Mode</string>
+    <string name="label_line">Line</string>
+    <string name="label_oval">Oval</string>
+    <string name="label_rectangle">Rectangle</string>
+    <string name="restart">Restart</string>
+    <string name="update_downloaded">Update Downloaded</string>
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="data_recovery">Background Recorder</string>
+    <string name="file_shredder">Collage Maker</string>
+    <string name="record_your_mobile_screen">Record Your Mobile Screen</string>
+    //fcm
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        FCM registration token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
